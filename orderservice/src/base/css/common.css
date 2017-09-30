@@ -1,0 +1,146 @@
+html {
+  background-color: #fff;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0
+}
+
+body, button, input, select, textarea {
+  font: 12px/1 tahoma,arial, "Hiragino Sans GB", "\5B8B\4F53",sans-serif
+}
+
+ol, ul {
+  list-style: none
+}
+
+ins, a {
+  text-decoration: none
+}
+
+a {
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -ms-transition: color .2s;
+  transition: color .2s
+}
+
+a, a:link, a:visited, a:hover {
+  color: #46AF36;
+}
+.wrap-center{
+  width: 10rem;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0
+}
+.clearfix {
+  zoom: 1
+}
+*:focus, input {
+  outline: none;
+}
+
+.tac {
+  text-align: center;
+}
+
+.vam {
+  vertical-align: middle;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/*width*/
+.w50 {
+  width: 50%;
+}
+/* margin */
+.mt15{
+  margin-top: .2rem;
+}
+.mt21{
+  margin-top: .28rem;
+}
+.mt42{
+  margin-top: .56rem;
+}
+.mt51{
+  margin-top: .68rem;
+}
+/*padding*/
+.pl21 {
+  padding-left: .28rem;
+}
+.pt150{
+  padding-bottom: 2.5rem;
+}
+/*font-size*/
+.fs12 {
+  font-size: 12px;
+}
+[data-dpr="2"] .fs12{font-size: 24px;}
+[data-dpr="3"] .fs12{font-size: 36px;}
+.fs13 {
+  font-size: 13px;
+}
+[data-dpr="2"] .fs13{font-size: 26px;}
+[data-dpr="3"] .fs13{font-size: 39px;}
+.fs16 {
+  font-size: 16px;
+}
+[data-dpr="2"] .fs16{font-size: 32px;}
+[data-dpr="3"] .fs16{font-size: 48px;}
+
+/*color*/
+.c3 {
+  color: #333;
+}
+
+.c6 {
+  color: #666;
+}
+
+.c9 {
+  color: #999;
+}
+.c_79{
+  color: #797979;
+}
+.c_black{
+  color: #424242;
+}
+.c_white {
+  color: #fff
+}
+
+.c_green {
+  color: #46AF36;
+}
+
+.c_gray {
+  color: #e0e3d1;
+}
+
+.c_red {
+  color: #f4706d;
+}
+.c_yellow{
+  color: #ffd221;
+}
