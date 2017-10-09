@@ -14,7 +14,7 @@
 }
 ```
 - 使用axios发送请求，获取数据。
-- 使用json-server来模拟数据，模拟的数据均放在mock文件夹下.同时需设置config/index.js文件内的dev.proxyTable，类似如下
+- 使用json-server来模拟数据，模拟的数据均放在mock文件夹下。同时需设置config/index.js文件内的dev.proxyTable，类似如下
 ```
 proxyTable: {
     '/api': {
